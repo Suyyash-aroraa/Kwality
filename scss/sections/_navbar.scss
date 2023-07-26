@@ -1,0 +1,109 @@
+@font-face {
+    font-family: freight;
+    src: url('/Restaurant/assets/fonts/Freight\ Big\ Pro\ Bold.otf');
+}
+
+$nav-color: #151624;
+
+.navbar1{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    .logo{
+        z-index: 100;
+        position: absolute;
+        left: 6rem;
+        top: 1.3rem;
+        height: 4rem;
+        filter: invert(86%) sepia(25%) saturate(164%) hue-rotate(334deg) brightness(107%) contrast(84%);
+        img{
+            height: 100%;
+            
+            filter: brightness(0) saturate(100%);
+        }
+    }
+    .side-panel{
+        z-index: 101;
+        height: 100vh;
+        width: 3.9rem;
+        margin: 0;
+        border: .1rem white solid;
+        display: flex;
+        flex-direction: column;
+        border-left: 0;
+        align-items: center;
+        justify-content: space-between;
+        button{
+            z-index: 99;
+            background-color: transparent;
+            border: 0;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+
+            
+        }
+        .bars{
+            padding-bottom: 1rem;
+            width: 100%;
+            border-bottom: .1rem white solid;
+            display: flex;
+            justify-content: center;
+            i{
+                margin-top: 1rem;
+                font-size: x-large;
+                filter: invert(1);
+                
+            }
+        }
+        .text{
+            writing-mode: vertical-lr;
+            text-orientation: upright;
+            font-family: freight;
+            word-spacing: 0;
+            letter-spacing: 0;
+            line-height: 0;
+        }
+        .social{
+            i{
+                font-size: large;
+                
+                margin-bottom: .7rem;
+            }
+        }
+
+    }
+    .top-panel{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        display: flex;
+        justify-content: end;
+        height: 59px;
+        .info{
+            border-bottom: .1rem solid white;
+            display: flex;
+            height: 100%;
+        }
+        button{
+            margin: 0;
+            height: 100%;
+            border: 0;
+            background-color: transparent;
+            border-left: .1rem solid white;
+
+            &:hover{
+                background-color: azure;
+                background-clip: text;
+                color: transparent;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+    .bars-btn{
+        z-index: 900;
+    }
+
+}

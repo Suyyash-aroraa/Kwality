@@ -1,0 +1,36 @@
+@font-face {
+    font-family: freight;
+    src: url('/Restaurant/assets/fonts/Freight\ Big\ Pro\ Light.otf');
+}
+
+.mission{
+    position: absolute;
+    top: 100vh;
+    height: 80vh;
+    width: 90%;
+    background-image: url('/Restaurant/assets/images/blue-faux-leather-texture.png');
+    background-size: cover;
+    font-family: freight;
+    .heading{
+        margin-left: 5rem;
+        font-weight: 600;
+    }
+    .text{
+        text-align: justify;
+        display: flex;
+        gap: 20px;
+        margin-right: 3rem;
+        margin-left: 12rem;
+    }
+    
+}
+.food-pic{
+    margin-top: 2rem;
+    position: relative;
+    top: 25vh;
+    left: 20%;
+    max-width: 80%;
+    height: 70vh;
+    background-image: url('/Restaurant/assets/images/FOOD.png');
+    background-size: cover;
+}

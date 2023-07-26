@@ -1,0 +1,33 @@
+@font-face {
+    font-family: freight;
+    src: url('/Restaurant/assets/fonts/Freight\ Big\ Pro\ Bold.otf');
+}
+
+.dishes{
+    width: 100%;
+    .text{
+        font-family: freight;
+        font-size: 5rem;
+        margin-top: -1.6rem;
+        margin-left: 3rem;
+        z-index: 5;
+    }
+    .row1{
+        width: 100%;
+        position: relative;
+        
+    }
+    .text-img{
+        position: absolute;
+        display: flex;
+        right: 5%;
+        justify-content: flex-end;
+        top: 50%;
+        
+        transform: translateY(-50%);
+    }
+    .dishes--images--1{
+        z-index: 1;
+    }
+
+}

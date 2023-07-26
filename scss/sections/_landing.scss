@@ -1,0 +1,30 @@
+@use '../custom';
+@font-face {
+    font-family: freight;
+    src: url('/Restaurant/assets/fonts/Freight\ Big\ Pro\ Bold.otf');
+}
+
+.landing{
+    position: relative;
+    width: 100%;
+    height: 120vh;
+    .bg-image{
+        width: 100%;
+        height: 120vh;
+        background-image: url('/Restaurant/assets/images/interior.png');
+        background-size: cover;
+
+        
+    }
+    &-text{
+        position: absolute;
+        left: 6rem;
+        top: 40%;
+        transform: translateY(-50%);
+
+        h3,h5{
+            font-family: freight, sans-serif;
+            
+        }
+    }
+}

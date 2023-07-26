@@ -1,0 +1,17 @@
+@use './sections/landing';
+@use './custom';
+@use './sections/navbar';
+@use './sections/mission';
+@use './sections/dishes';
+@use './sections/nav-menu';
+@use './sections/menu';
+
+
+body{
+    margin: 0;
+    
+}
+
+.fill-gap{
+    height: 23vh;
+}
