@@ -1,7 +1,7 @@
 @use '../custom';
 @font-face {
     font-family: freight;
-    src: url('/Kwality/assets/fonts/Freight\ Big\ Pro\ Bold.otf');
+    src: url('/assets/fonts/Freight\ Big\ Pro\ Bold.otf');
 }
 
 .landing{
@@ -11,7 +11,7 @@
     .bg-image{
         width: 100%;
         height: 120vh;
-        background-image: url('/Kwality/assets/images/interior.png');
+        background-image: url('/assets/images/interior.png');
         background-size: cover;
 
         

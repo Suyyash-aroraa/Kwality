@@ -1,6 +1,6 @@
 @font-face {
     font-family: freight;
-    src: url('/Kwality/assets/fonts/Freight\ Big\ Pro\ Bold.otf');
+    src: url('/assets/fonts/Freight\ Big\ Pro\ Bold.otf');
 }
 
 $nav-color: #151624;
@@ -106,4 +106,12 @@ $nav-color: #151624;
         z-index: 900;
     }
 
+}
+
+@media (max-width:600px) {
+    .top-panel{
+        .info{
+            visibility: hidden;
+        }
+    }
 }

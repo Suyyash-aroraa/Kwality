@@ -1,6 +1,6 @@
 @font-face {
     font-family: freight;
-    src: url('/Kwality/assets/fonts/Freight\ Big\ Pro\ Bold.otf');
+    src: url('/assets/fonts/Freight\ Big\ Pro\ Bold.otf');
 }
 
 .dishes{
@@ -18,16 +18,29 @@
         
     }
     .text-img{
-        position: absolute;
-        display: flex;
-        right: 5%;
-        justify-content: flex-end;
-        top: 50%;
-        
-        transform: translateY(-50%);
+       position: absolute;
+       left: 50%;
+       transform: translateX(-50%);
     }
     .dishes--images--1{
         z-index: 1;
+        position: absolute; 
+        left: 10%;
     }
 
+}
+
+@media (max-width: 800px){
+   
+        .dishes--images--1{
+            position: absolute ;
+            left: 0 !important;
+        }
+        .dishes--images--2{
+            position: absolute ;
+            right: 0 !important;
+        }
+        .dishes .text{
+            font-size: 3rem;
+        }
 }
