@@ -11864,7 +11864,7 @@ textarea.form-control-lg {
 
 @font-face {
   font-family: freight;
-  src: url("/assets/fonts/Freight Big Pro Bold.otf");
+  src: url("./assets/fonts/Freight Big Pro Bold.otf");
 }
 .landing {
   position: relative;
@@ -11874,7 +11874,7 @@ textarea.form-control-lg {
 .landing .bg-image {
   width: 100%;
   height: 120vh;
-  background-image: url("/assets/images/interior.png");
+  background-image: url("./assets/images/interior.png");
   background-size: cover;
 }
 .landing-text {
@@ -11889,7 +11889,7 @@ textarea.form-control-lg {
 
 @font-face {
   font-family: freight;
-  src: url("/assets/fonts/Freight Big Pro Bold.otf");
+  src: url("./assets/fonts/Freight Big Pro Bold.otf");
 }
 .navbar1 {
   width: 100%;
@@ -11991,14 +11991,14 @@ textarea.form-control-lg {
 }
 @font-face {
   font-family: freight;
-  src: url("/assets/fonts/Freight Big Pro Light.otf");
+  src: url("./assets/fonts/Freight Big Pro Light.otf");
 }
 .mission {
   position: absolute;
   top: 100vh;
   height: 80vh;
   width: 90%;
-  background-image: url("/assets/images/blue-faux-leather-texture.png");
+  background-image: url("./assets/images/blue-faux-leather-texture.png");
   background-size: cover;
   font-family: freight;
 }
@@ -12022,7 +12022,7 @@ textarea.form-control-lg {
   margin-left: 20%;
   max-width: 80%;
   height: 70vh;
-  background-image: url("/assets/images/FOOD.png");
+  background-image: url("./assets/images/FOOD.png");
   background-size: cover;
 }
 
@@ -12038,7 +12038,7 @@ textarea.form-control-lg {
 }
 @font-face {
   font-family: freight;
-  src: url("/assets/fonts/Freight Big Pro Bold.otf");
+  src: url("./assets/fonts/Freight Big Pro Bold.otf");
 }
 .dishes {
   width: 100%;
@@ -12084,7 +12084,7 @@ textarea.form-control-lg {
   z-index: 99;
   position: absolute;
   top: 0;
-  background-image: url("/assets/images/blue-faux-leather-texture.png");
+  background-image: url("./assets/images/blue-faux-leather-texture.png");
   left: -100%;
   position: fixed;
 }
@@ -12113,7 +12113,7 @@ textarea.form-control-lg {
 
 @font-face {
   font-family: freight;
-  src: url("/assets/fonts/Freight Big Pro Bold.otf");
+  src: url("./assets/fonts/Freight Big Pro Bold.otf");
 }
 .menu {
   font-family: freight;
@@ -12131,7 +12131,7 @@ textarea.form-control-lg {
   gap: 2rem;
 }
 .menu .og-cards--1 {
-  background-image: url("/assets/images/one-dish.png");
+  background-image: url("./assets/images/one-dish.png");
   background-size: cover;
   background-position: center;
   position: relative;
