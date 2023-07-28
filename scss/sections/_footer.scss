@@ -1,0 +1,22 @@
+.footer{
+    
+    margin: 0;
+    width: 100%;
+    padding-top: 3rem;
+    background-image: url('/Kwality/assets/images/blue-faux-leather-texture.png');
+    background-size: cover;
+    .footer-text{
+        justify-content: space-evenly;
+        
+        a, h3{
+            font-family: freight;
+            color: #ebdfd4  ;
+            text-decoration: none;
+            width: fit-content;
+            display: inline;
+        }
+    }
+    .container{
+        border: #ebdfd4 1px solid;
+    }
+}

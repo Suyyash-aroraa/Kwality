@@ -16,6 +16,7 @@
 
         
     }
+
     &-text{
         position: absolute;
         left: 6rem;
@@ -26,5 +27,21 @@
             font-family: freight, sans-serif;
             
         }
+    }
+}
+.order{
+    position: absolute;
+    top: 65vh;
+    z-index: 101;
+    left: 6rem;
+    color: black;
+    font-family: freight;
+    font-weight: 900;
+    font-size: 1.2rem;
+    background-color: #ebdfd4;
+    border: .1rem solid #ebdfd4;
+    &:hover{
+        background-color: transparent;
+        color: #ebdfd4;
     }
 }

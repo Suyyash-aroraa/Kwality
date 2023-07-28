@@ -11887,6 +11887,23 @@ textarea.form-control-lg {
   font-family: freight, sans-serif;
 }
 
+.order {
+  position: absolute;
+  top: 65vh;
+  z-index: 101;
+  left: 6rem;
+  color: black;
+  font-family: freight;
+  font-weight: 900;
+  font-size: 1.2rem;
+  background-color: #ebdfd4;
+  border: 0.1rem solid #ebdfd4;
+}
+.order:hover {
+  background-color: transparent;
+  color: #ebdfd4;
+}
+
 @font-face {
   font-family: freight;
   src: url("/Kwality/assets/fonts/Freight Big Pro Bold.otf");
@@ -11896,6 +11913,9 @@ textarea.form-control-lg {
   position: absolute;
   top: 0;
   z-index: 100;
+}
+.navbar1 .hidden {
+  display: none;
 }
 .navbar1 .logo {
   z-index: 100;
@@ -12013,6 +12033,9 @@ textarea.form-control-lg {
   margin-right: 3rem;
   margin-left: 12rem;
 }
+.mission .hidden {
+  display: none;
+}
 
 .food-pic {
   margin: 0;
@@ -12030,10 +12053,13 @@ textarea.form-control-lg {
   .mission .text {
     margin-left: 2rem;
     margin-right: 2rem;
+    text-align: left;
   }
   .mission .text .ml-7 {
-    visibility: hidden;
-    width: 0;
+    display: none;
+  }
+  .mission .hidden {
+    display: block;
   }
 }
 @font-face {
@@ -12098,6 +12124,7 @@ textarea.form-control-lg {
   top: 20vh;
   display: none;
   background-image: none;
+  font-family: freight;
 }
 #menu-content .container {
   height: 100%;
@@ -12116,7 +12143,11 @@ textarea.form-control-lg {
   src: url("/Kwality/assets/fonts/Freight Big Pro Bold.otf");
 }
 .menu {
+  margin-top: 5rem;
   font-family: freight;
+}
+.menu .heading {
+  line-height: 5rem;
 }
 .menu .bg-text {
   font-size: 7rem !important;
@@ -12125,10 +12156,10 @@ textarea.form-control-lg {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   position: relative;
-  bottom: 4rem;
+  bottom: 1.3rem;
   width: 90%;
-  left: 5%;
-  gap: 2rem;
+  margin-left: 5%;
+  gap: 5%;
 }
 .menu .og-cards--1 {
   background-image: url("/Kwality/assets/images/one-dish.png");
@@ -12144,6 +12175,9 @@ textarea.form-control-lg {
 }
 .menu .og-cards--2 {
   margin-top: 1.5rem;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmakemineamocktail.com%2Fwp-content%2Fuploads%2F2020%2F05%2Fvirgin-mojito-6.jpg&f=1&nofb=1&ipt=30bbd1c4576d5acb27b910639a9dd5d78bf21aa9f5eb8743dbcf9b8d832de2f4&ipo=images");
+  background-size: cover;
+  background-position: center;
   position: relative;
 }
 .menu .og-cards--2 h3 {
@@ -12154,6 +12188,28 @@ textarea.form-control-lg {
 }
 .menu .og-cards--3 {
   margin-top: 1.5rem;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flianaskitchen.co.uk%2Fwp-content%2Fuploads%2Fspicy-tomato-soup.jpg&f=1&nofb=1&ipt=e5034cda0a2cd7c41e1b90cf47157b403ad90d0aaed85e334fe592987b2977cf&ipo=images");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.menu .og-cards--3 h3 {
+  position: absolute;
+  bottom: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.menu .og-cards--4 {
+  background-image: url("/Kwality/assets/images/slider-bg-one.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.menu .og-cards--4 h3 {
+  position: absolute;
+  bottom: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .menu .og-cards .og-card {
   width: 100%;
@@ -12163,19 +12219,49 @@ textarea.form-control-lg {
 }
 .menu .og-cards .og-card:hover {
   width: 105%;
-  height: 43vh;
-  margin-top: 3px;
-  margin-bottom: 3px;
 }
 
 @media (max-width: 816px) {
   .menu .og-cards {
+    top: 0;
     grid-template-columns: repeat(2, 1fr);
   }
   .menu .og-cards .og-card {
     margin: 0;
   }
 }
+.location {
+  margin-top: 5rem;
+  font-size: 7rem;
+  font-family: freight;
+  line-height: 5rem;
+  margin-bottom: 3rem;
+}
+.location .map {
+  margin-top: 0.3rem;
+}
+
+.footer {
+  margin: 0;
+  width: 100%;
+  padding-top: 3rem;
+  background-image: url("/Kwality/assets/images/blue-faux-leather-texture.png");
+  background-size: cover;
+}
+.footer .footer-text {
+  justify-content: space-evenly;
+}
+.footer .footer-text a, .footer .footer-text h3 {
+  font-family: freight;
+  color: #ebdfd4;
+  text-decoration: none;
+  width: fit-content;
+  display: inline;
+}
+.footer .container {
+  border: #ebdfd4 1px solid;
+}
+
 body {
   margin: 0;
 }

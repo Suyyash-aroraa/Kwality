@@ -4,7 +4,12 @@
 }
 
 .menu{
+    margin-top: 5rem;
     font-family: freight;
+
+    .heading{
+        line-height: 5rem;
+    }
     .bg-text{
         font-size: 7rem !important;
     }
@@ -12,10 +17,10 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         position: relative;
-        bottom: 4rem;
+        bottom: 1.3rem;
         width: 90%;
-        left: 5%;
-        gap: 2rem;
+        margin-left: 5%;
+        gap: 5%;
 
         &--1{
             background-image: url('/Kwality/assets/images/one-dish.png');
@@ -31,9 +36,10 @@
         }
         &--2{
             margin-top: 1.5rem;
+            background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmakemineamocktail.com%2Fwp-content%2Fuploads%2F2020%2F05%2Fvirgin-mojito-6.jpg&f=1&nofb=1&ipt=30bbd1c4576d5acb27b910639a9dd5d78bf21aa9f5eb8743dbcf9b8d832de2f4&ipo=images');
+            background-size: cover;
+            background-position: center;
             position: relative;
-
-
             h3{
                 position: absolute;
                 bottom: 3rem;
@@ -43,7 +49,31 @@
         }
         &--3{
             margin-top: 1.5rem;
+            background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flianaskitchen.co.uk%2Fwp-content%2Fuploads%2Fspicy-tomato-soup.jpg&f=1&nofb=1&ipt=e5034cda0a2cd7c41e1b90cf47157b403ad90d0aaed85e334fe592987b2977cf&ipo=images');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            h3{
+                position: absolute;
+                bottom: 3rem;
+                left: 50%;
+                transform: translateX(-50%);
+            }
         }
+        &--4{
+            background-image: url('/Kwality/assets/images/slider-bg-one.png');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            h3{
+                position: absolute;
+                bottom: 3rem;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+        
+        
 
         .og-card{
             width:100% ;
@@ -53,9 +83,8 @@
 
             &:hover{
                 width: 105%;
-                height: 43vh;
-                margin-top: 3px;
-                margin-bottom: 3px;
+                
+                
             }
         }
     }
@@ -65,9 +94,11 @@
 @media (max-width:816px){
     .menu{
         .og-cards{
+            top: 0;
             grid-template-columns: repeat(2, 1fr);
             .og-card{
                 margin: 0;
+                
             }
         }
     }

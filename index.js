@@ -7,10 +7,37 @@ var menuOpacity = 0
 var menuLeft = -100
 const menu = document.querySelector('.nav-menu')
 
+var logoHeight = 4;
+var runningLoopHeight = true;
+var logoTop = 1.3;
+var navOpacity = 0;
+
 document.addEventListener('scroll', ()=>{
     let value = window.scrollY;
+    if (value>300){
+        document.querySelector('.order').style.visibility = 'hidden';
+        
+    }
+    else {
+        document.querySelector('.order').style.visibility = 'visible';
+        
+    }
     if (value>=30){
-        logo.style.height = '3rem';
+        if (logoHeight>3 && runningLoopHeight){
+            
+            runningLoop = false
+            var logoChangeHeight = setInterval(()=>{
+                logo.style.height = logoHeight + 'rem';
+                logoHeight -= .01;
+                console.log(logoHeight)
+                if (logoHeight<=3){
+                    clearInterval(logoChangeHeight)
+                    logoChangeHeight = null;
+                }
+            }, '1' );
+        }
+        // logo.style.height = '3rem';
+        document.querySelector('.hidden').style.display = 'block';
         logo.style.top = '.5rem';
         logo.style.position = 'fixed';
         bars.style.position = 'fixed';
@@ -26,7 +53,10 @@ document.addEventListener('scroll', ()=>{
 document.addEventListener('scroll', ()=>{
     let value = window.scrollY;
     if (value<=30){
+        document.querySelector('.hidden').style.display = 'none';
         logo.style.height = '4rem';
+        logoHeight =4;
+        runningLoopHeight = true;
         logo.style.top = '1.3rem';
         logo.style.position = 'absolute';
         bars.style.position = 'relative';
@@ -53,12 +83,15 @@ document.querySelector('.bars-btn').addEventListener('click', ()=>{
         $('#menu-content').fadeOut();
         openMenu = false
         console.log(openMenu)
+        
         closingMenu = setInterval(()=>{
             console.log(menuLeft +x)
             menu.style.left = (menuLeft + x) + '%' ;
             x--
+           
             if ((menuLeft + x) === -101){
                 clearInterval(closingMenu)
+                document.querySelector('.order').style.visibility = 'visible';
                 
             }
         }, '3');
@@ -68,6 +101,7 @@ document.querySelector('.bars-btn').addEventListener('click', ()=>{
         openMenu = true
         console.log(openMenu)
         menuOpacity=0
+        document.querySelector('.order').style.visibility = 'hidden';
         openingMenu = setInterval(()=>{
             menu.style.left = (menuLeft + i) + '%' ;
             i++
