@@ -15,11 +15,11 @@ var navOpacity = 0;
 document.addEventListener('scroll', ()=>{
     let value = window.scrollY;
     if (value>300){
-        document.querySelector('.order').style.visibility = 'hidden';
+        document.querySelector('.order').style.zIndex = '90';
         
     }
     else {
-        document.querySelector('.order').style.visibility = 'visible';
+        document.querySelector('.order').style.zIndex = '101';
         
     }
     if (value>=30){
