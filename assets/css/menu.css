@@ -1,0 +1,178 @@
+body {
+  background-image: url("/Kwality/assets/images/blue-faux-leather-texture.png");
+  background-size: cover;
+}
+
+.bg {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -3;
+}
+.bg .heading {
+  position: relative;
+  top: 3rem;
+  font-family: freight;
+}
+.bg--image {
+  background-image: url("/Kwality/assets/images/interior.png");
+  width: 100%;
+  height: 120vh;
+  background-size: cover;
+}
+
+#cards {
+  width: 100%;
+}
+#cards .grid {
+  margin-right: 3rem;
+  margin-top: 40vh;
+  margin-left: 5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+}
+#cards .grid a {
+  text-decoration: none;
+}
+#cards .grid .menu-card {
+  border-radius: 12px;
+  height: 40vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 2px 2px 10px black;
+}
+#cards .grid .menu-card:hover {
+  width: 105%;
+}
+#cards .grid .card-text {
+  position: relative;
+}
+#cards .grid .card-text h3 {
+  font-family: freight;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  top: 10rem;
+}
+#cards .grid--1 {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F40aprons.com%2Fwp-content%2Fuploads%2F2021%2F04%2Fvirgin-mojito-3.jpg&f=1&nofb=1&ipt=16064bd1e01ddc16986387df5f232fabd062cef86f2c2a1aa58d3b9be325c3e6&ipo=images");
+  background-size: cover;
+}
+#cards .grid--2 {
+  background-image: url("https://images.pexels.com/photos/539451/pexels-photo-539451.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-position: left;
+}
+#cards .grid--3 {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.cookforindia.com%2Fwp-content%2Fuploads%2F2016%2F08%2FPaneer-Tikka-_LR.jpg&f=1&nofb=1&ipt=ed2f58bd6a74673a1131ece576e0a204dc2bab868667cb3da9c558e7bbe01487&ipo=images");
+  background-size: cover;
+}
+#cards .grid--4 {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.tasteatlas.com%2Fimages%2Fsocial%2F733cd5be69a84534b648fca6ef98b2a2.jpg&f=1&nofb=1&ipt=bd4dae81418d6548515cda3fdac5f157a9a8738a0c7a19792937387f0b7fdc94&ipo=images");
+  background-size: cover;
+}
+#cards .grid--5 {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.vegrecipesofindia.com%2Fwp-content%2Fuploads%2F2020%2F01%2Fpaneer-butter-masala-4.jpg&f=1&nofb=1&ipt=5a29f9b2cff12315ab2a5615f79ecfc49dd3b19388e0598b270e945b7649d245&ipo=images");
+  background-size: cover;
+}
+#cards .grid--6 {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.papithaskitchen.com%2Fwp-content%2Fuploads%2F2018%2F12%2Fchicken-gravy-2.jpg&f=1&nofb=1&ipt=a10e431e5680f95b62ebdfe66362c6c9bf8aa157d753286b64709d1858408341&ipo=images");
+  background-size: cover;
+}
+#cards .grid--7 {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.healthyoptions.com.ph%2F_uploads%2Fgallerize_2%2F411ab0dbbab337a66ace5957cce77743_09-19-16_11-29-05.jpg&f=1&nofb=1&ipt=5a451ed032862f2b9860b55fe3e564c717e2866374bae34dc95a4a7ccface2b6&ipo=images");
+  background-size: cover;
+  background-position: right;
+}
+#cards .grid--8 {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-Yjq2BUlLdgM%2FXtk4j9S3OVI%2FAAAAAAAAh0Y%2FTLsH3msBuHYJjNpj1zhEg3MpxfvjnixGgCK4BGAsYHg%2Fs4032%2F20200506_130356.jpg&f=1&nofb=1&ipt=6b2177a23ac78a0b4004dbd8b3f32e42cef465a03f4e0be293f8994d2ca9ede8&ipo=images");
+  background-size: cover;
+}
+#cards .grid--9 {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Frecipes.timesofindia.com%2Fphoto%2F53338316.cms&f=1&nofb=1&ipt=9fd7f821243259949b48a81e4eddb8ea977e1c37106d739dbf46baef9b27ffcd&ipo=images");
+  background-size: cover;
+}
+#cards .grid--10 {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F2.bp.blogspot.com%2F-vmw9Cknw63s%2FVDNL68TbLNI%2FAAAAAAAAKFg%2FhwQHOrB_MKk%2Fs1600%2FPaneer%252BVegetable%252BCutlets.JPG&f=1&nofb=1&ipt=5d8547a614e2b599670dea9df185b71f74e9e92986dde48f0c7d83d8f6e3a3df&ipo=images");
+  background-size: cover;
+}
+#cards .grid--11 {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbigoven-res.cloudinary.com%2Fimage%2Fupload%2Fgrilled-cheese-sandwiches-4.jpg&f=1&nofb=1&ipt=2afc9f658fa0677f1434a3aa491c844da78425a0184cd933c0a62b2f721e4d17&ipo=images");
+  background-size: cover;
+}
+#cards .grid--12 {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F000%2F709%2F594%2Flarge_2x%2Fbrownie-and-ice-cream-photo.jpg&f=1&nofb=1&ipt=8b030d66957578f3d4bf52c397a95dfc5d08e6b6d8b4082fbed82cd2b96cf9c0&ipo=images");
+  background-size: cover;
+}
+#cards .grid--13 {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.garamchaietc.com%2Fuploads%2F8%2F1%2F7%2F3%2F8173857%2Fs301608574869068858_p3_i3_w2448.jpeg&f=1&nofb=1&ipt=b55077473fd70150a1620f501a78ab2230674dbc706fdcbf70e62bb30c844a8f&ipo=images");
+  background-size: cover;
+}
+
+.side-panel {
+  z-index: 999;
+  width: 3rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 0.1rem white solid;
+}
+.side-panel button {
+  z-index: 99;
+  background-color: transparent;
+  border: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.side-panel .bars {
+  padding-bottom: 1rem;
+  width: 100%;
+  border-bottom: 0.1rem white solid;
+  display: flex;
+  justify-content: center;
+}
+.side-panel .bars i {
+  margin-top: 1rem;
+  font-size: x-large;
+  filter: invert(1);
+}
+.side-panel .text {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-family: freight;
+  word-spacing: 0;
+  letter-spacing: 0;
+  line-height: 0;
+}
+.side-panel .hidden {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  #cards .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 1100px) {
+  #cards .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 550px) {
+  #cards .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/*# sourceMappingURL=menu.css.map */

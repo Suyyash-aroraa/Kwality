@@ -11860,6 +11860,7 @@ textarea.form-control-lg {
 }
 .text-white {
   color: #ebdfd4 !important;
+  text-shadow: 2px 2px 3px #151624;
 }
 
 @font-face {
