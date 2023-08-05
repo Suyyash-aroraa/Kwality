@@ -24448,6 +24448,7 @@ textarea.form-control-lg {
   background-color: rgba(21, 22, 36, 0.45);
 }
 .contact .contact-us .info-block {
+  border-radius: 12px;
   position: absolute;
   top: 50%;
   left: 50%;
