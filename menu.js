@@ -23,7 +23,7 @@ menuBtn.addEventListener('click', ()=>{
                 
             }
             console.log(x)
-        }, '5')
+        }, '1')
     }
     else if (menuOpen){
         let x = 100
@@ -38,6 +38,6 @@ menuBtn.addEventListener('click', ()=>{
                 
                 clearInterval(closingMenuLoop)
             }
-        }, '5')
+        }, '1')
     }
 })

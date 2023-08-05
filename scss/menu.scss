@@ -3,6 +3,11 @@ body{
     background-size: cover;
 }
 
+.contact{
+    z-index: 1000 !important;
+    position: fixed;
+    top: 0 !important;
+}
 .bg{
     position: absolute;
     height: 100vh;
